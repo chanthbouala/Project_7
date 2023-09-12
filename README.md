@@ -138,7 +138,7 @@ pip install -r requirements.txt
 ### 🎮 Using P7_notebook
 
 ```sh
-jupyter nbconvert --execute P7.ipynb
+jupyter lab P7.ipynb
 ```
 
 ### 🎮 Using fastAPI_backend.py
