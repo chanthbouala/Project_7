@@ -2,6 +2,7 @@
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" />
 <br>Project_7
+<br>Implement a scoring model for bank loan
 </h1>
 <h3>◦ Developed with the software and tools listed below.</h3>
 
@@ -33,7 +34,7 @@
 
 ## 📍 Overview
 
-### Mission: Implement a scoring model
+### Mission: Implement a scoring model for bank loan
 **Context**  
 You are a Data Scientist working for a financial company called "Prêt à dépenser", which offers consumer credit to people with little or no loan history. The company wanted to implement a "credit scoring" tool to calculate the probability of a customer repaying their loan, and then classify the application as either granted or refused credit. It therefore wants to develop a classification algorithm based on a variety of data sources (behavioural data, data from other financial institutions, etc.). In addition, customer relationship managers have pointed out that customers are increasingly demanding transparency in credit granting decisions. This demand for transparency from customers is entirely in line with the values that the company wishes to embody. "Prêt à dépenser" has therefore decided to develop an interactive dashboard so that customer relations managers can not only explain credit granting decisions as transparently as possible, but also allow their customers to access their personal information and explore it easily. 
 
