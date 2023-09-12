@@ -1,0 +1,13 @@
+pandas
+numpy
+seaborn
+lightgbm==3.3.3
+scikit-learn
+pydantic
+fastapi
+cython==0.29.32
+cytoolz==0.11.0
+setuptools
+uvicorn
+gunicorn
+httptools
