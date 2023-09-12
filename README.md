@@ -101,12 +101,12 @@ Michaël has provided you with specifications for the interactive dashboard. It 
 
 1. Clone the P7_notebook repository:
 ```sh
-git clone https://github.com/chanthbouala/P7_notebook
+git clone https://github.com/chanthbouala/Project_7
 ```
 
 2. Change to the project directory:
 ```sh
-cd P7_notebook
+cd Project_7
 ```
 
 3. Install the dependencies:
