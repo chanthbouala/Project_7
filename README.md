@@ -7,7 +7,22 @@
 <h3>◦ Developed with the software and tools listed below.</h3>
 
 <p align="center">
+<img src="https://img.shields.io/badge/tqdm-FFC107.svg?style&logo=tqdm&logoColor=black" alt="tqdm" />
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B.svg?style&logo=Streamlit&logoColor=white" alt="Streamlit" />
+<img src="https://img.shields.io/badge/Babel-F9DC3E.svg?style&logo=Babel&logoColor=black" alt="Babel" />
+<img src="https://img.shields.io/badge/scikitlearn-F7931E.svg?style&logo=scikit-learn&logoColor=white" alt="scikitlearn" />
 <img src="https://img.shields.io/badge/Jupyter-F37626.svg?style&logo=Jupyter&logoColor=white" alt="Jupyter" />
+<img src="https://img.shields.io/badge/Jinja-B41717.svg?style&logo=Jinja&logoColor=white" alt="Jinja" />
+<img src="https://img.shields.io/badge/SciPy-8CAAE6.svg?style&logo=SciPy&logoColor=white" alt="SciPy" />
+<img src="https://img.shields.io/badge/Gunicorn-499848.svg?style&logo=Gunicorn&logoColor=white" alt="Gunicorn" />
+
+<img src="https://img.shields.io/badge/Plotly-3F4F75.svg?style&logo=Plotly&logoColor=white" alt="Plotly" />
+<img src="https://img.shields.io/badge/Python-3776AB.svg?style&logo=Python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/pandas-150458.svg?style&logo=pandas&logoColor=white" alt="pandas" />
+<img src="https://img.shields.io/badge/NumPy-013243.svg?style&logo=NumPy&logoColor=white" alt="NumPy" />
+<img src="https://img.shields.io/badge/Numba-00A3E0.svg?style&logo=Numba&logoColor=white" alt="Numba" />
+<img src="https://img.shields.io/badge/FastAPI-009688.svg?style&logo=FastAPI&logoColor=white" alt="FastAPI" />
+<img src="https://img.shields.io/badge/Markdown-000000.svg?style&logo=Markdown&logoColor=white" alt="Markdown" />
 </p>
 <img src="https://img.shields.io/github/languages/top/chanthbouala/Project_7?style&color=5D6D7E" alt="GitHub top language" />
 <img src="https://img.shields.io/github/languages/code-size/chanthbouala/Project_7?style&color=5D6D7E" alt="GitHub code size in bytes" />
@@ -85,9 +100,14 @@ Michaël has provided you with specifications for the interactive dashboard. It 
 
 <details closed><summary>Root</summary>
 
-| File                                                                       | Summary                                 |
-| ---                                                                        | ---                                     |
-| [P7.ipynb](https://github.com/chanthbouala/P7_notebook/blob/main/P7.ipynb) | Prompt exceeds max token limit: 872857. |
+| File                                                                                                              | Summary                                 |
+| ---                                                                                                               | ---                                     |
+| [fastAPI_backend.py](https://github.com/chanthbouala/Project_7/blob/main/P7_API\fastAPI_backend.py)               | HTTPStatus Exception: 429               |
+| [functions.py](https://github.com/chanthbouala/Project_7/blob/main/P7_API\functions.py)                           | HTTPStatus Exception: 429               |
+| [Procfile](https://github.com/chanthbouala/Project_7/blob/main/P7_API\Procfile)                                   | HTTPStatus Exception: 429               |
+| [Dashboard_streamlit.py](https://github.com/chanthbouala/Project_7/blob/main/P7_dashboard\Dashboard_streamlit.py) | HTTPStatus Exception: 429               |
+| [functions.py](https://github.com/chanthbouala/Project_7/blob/main/P7_dashboard\functions.py)                     | HTTPStatus Exception: 429               |
+| [P7.ipynb](https://github.com/chanthbouala/Project_7/blob/main/P7_notebook\P7.ipynb)                              | Prompt exceeds max token limit: 872857. |
 
 </details>
 
@@ -120,6 +140,12 @@ pip install -r requirements.txt
 ```sh
 jupyter nbconvert --execute P7.ipynb
 ```
+
+### 🎮 Using fastAPI_backend.py
+The API backend is meant to be hosted at Heroku.
+
+### 🎮 Using Dashboard_streamlit.py
+The dashboard code is using using streamlit and is meant to be hosted at streamlit services.
 
 ---
 
